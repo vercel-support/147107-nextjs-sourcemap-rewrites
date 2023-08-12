@@ -5,7 +5,7 @@ const nextConfig = {
     return {
       beforeFiles: [
         {
-          source: '/*.map',
+          source: '/(.*).map',
           destination: '/404'
         }
       ]
