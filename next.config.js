@@ -10,7 +10,8 @@ const nextConfig = {
       beforeFiles: [
         {
           source: '/(.*).map',
-          destination: 'https://vercel.com'
+          destination: 'https://vercel.com',
+          locale: false
         }
       ]
     };
